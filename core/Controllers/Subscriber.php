@@ -273,9 +273,59 @@
 		}
 
 		// ------------------------------------------
-		//Purchase Alpha Topup
+		//Purchase SIM Hosting / Verifications
 		// ------------------------------------------
 		
+		public function purchaseSimHosting(){
+			extract($_POST);
+			$this->setDetails();
+			$transref = (!empty($transref)) ? $transref : $this->generateTransactionRef();
+			$check=$this->model->verifyTransactionPin($this->userId,$transkey);
+			if(is_object($check)){
+				$serviceModel = new ServiceModulesModel;
+				$result = $serviceModel->purchaseSimHosting($this->userId,(float) $amount,$phone,$network,$slot,$transref);
+				if($result["status"] == "success"){
+					header("Location: transaction-details?ref=$transref");
+					exit();
+				}
+				return $this->createPopMessage("Error!!",$result["message"],"red");
+			}
+			return $this->createPopMessage("Error!!","Incorrect Pin, Please Try Again.","red");
+		}
+
+		public function purchaseNinVerification(){
+			extract($_POST);
+			$this->setDetails();
+			$transref = (!empty($transref)) ? $transref : $this->generateTransactionRef();
+			$check=$this->model->verifyTransactionPin($this->userId,$transkey);
+			if(is_object($check)){
+				$serviceModel = new ServiceModulesModel;
+				$result = $serviceModel->createNinVerification($this->userId,$verification_type,$value_text,$transref);
+				if($result["status"] == "success"){
+					header("Location: transaction-details?ref=$transref");
+					exit();
+				}
+				return $this->createPopMessage("Error!!",$result["message"],"red");
+			}
+			return $this->createPopMessage("Error!!","Incorrect Pin, Please Try Again.","red");
+		}
+
+		public function purchaseBvnVerification(){
+			extract($_POST);
+			$this->setDetails();
+			$transref = (!empty($transref)) ? $transref : $this->generateTransactionRef();
+			$check=$this->model->verifyTransactionPin($this->userId,$transkey);
+			if(is_object($check)){
+				$serviceModel = new ServiceModulesModel;
+				$result = $serviceModel->createBvnVerification($this->userId,$bvn_number,$transref);
+				if($result["status"] == "success"){
+					header("Location: transaction-details?ref=$transref");
+					exit();
+				}
+				return $this->createPopMessage("Error!!",$result["message"],"red");
+			}
+			return $this->createPopMessage("Error!!","Incorrect Pin, Please Try Again.","red");
+		}
 		
 		//Purchase Alpha Topup API
 		public function purchaseAlphaTopup(){

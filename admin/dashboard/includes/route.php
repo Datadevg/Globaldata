@@ -321,6 +321,21 @@
         $msg=$controller->withdrawKudaFunds();
     }
 
+    //Save service module settings
+    if(isset($_POST["save-service-settings"])){
+        $msg=(new ServiceModulesController)->saveServiceSettings();
+    }
+
+    //Save SIM provider
+    if(isset($_POST["save-sim-provider"])){
+        $msg=(new ServiceModulesController)->saveSimProvider();
+    }
+
+    //Save SIM device
+    if(isset($_POST["save-sim-device"])){
+        $msg=(new ServiceModulesController)->saveSimDevice();
+    }
+
     //Fetch The View Of The Page To Be Displayed
     createView($url);
     if($page == "dashboard.php"){createView("dashboard");}
@@ -537,6 +552,32 @@
             case "airtime-to-cash-requests":
                
                 $data=$controller->getAllAirtimeToCash($limit);
+                return $data;
+                break;
+
+            case "sim-hosting-admin":
+                $serviceController = new ServiceModulesController;
+                $data=array();
+                $data[0]=$serviceController->getServiceSettings();
+                $data[1]=$serviceController->getSimProviders('sim');
+                $data[2]=$serviceController->getSimDevices();
+                $data[3]=$serviceController->getSimTransactions();
+                return $data;
+                break;
+
+            case "nin-verification-admin":
+                $serviceController = new ServiceModulesController;
+                $data=array();
+                $data[0]=$serviceController->getServiceSettings();
+                $data[1]=$serviceController->getNinTransactions();
+                return $data;
+                break;
+
+            case "bvn-verification-admin":
+                $serviceController = new ServiceModulesController;
+                $data=array();
+                $data[0]=$serviceController->getServiceSettings();
+                $data[1]=$serviceController->getBvnTransactions();
                 return $data;
                 break;
 

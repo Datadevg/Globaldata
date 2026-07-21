@@ -7,6 +7,21 @@
 		public function purchaseData($body,$networkDetails,$datagroup,$actualPlanId){
 
 			$response = array();
+            $serviceModulesModel = new ServiceModulesModel;
+            $simRouting = $serviceModulesModel->routeDataPurchase($body,$networkDetails,$datagroup,$actualPlanId);
+            if($simRouting["status"] == "success" || $simRouting["status"] == "processing"){
+                $response["status"] = $simRouting["status"];
+                $response["msg"] = $simRouting["message"];
+                if(isset($simRouting["provider"])){$response["provider"] = $simRouting["provider"];} 
+                if(isset($simRouting["response"]["response"])){$response["true_response"] = $simRouting["response"]["response"];} 
+                return $response;
+            }
+            if($simRouting["status"] == "fail"){
+                $response["status"] = "fail";
+                $response["msg"] = $simRouting["message"];
+                return $response;
+            }
+
             $details=$this->model->getApiDetails();
 
             //Check Data Group Type
@@ -282,77 +297,36 @@
 		
 			//Purchase Airtime
 		public function purchaseDataSimhost($body,$network,$dataplan,$apiKey){
+			$response = array();
+			$provider = new ServiceModulesModel;
+			$providers = $provider->getActiveSimProviders('sim');
+			if(empty($providers)){
+				$response["status"] = "fail";
+				$response["msg"] = "No active SIM hosting provider is configured.";
+				return $response;
+			}
 
-			$host = "https://simhostng.com/api/sms/";
-            $callbackUrl ="https://website.com/webhook/hostmasterresponse/";
-            
-            if($network == 1){
-                $message="";
-                if($dataplan == 1){$message ="SMEB ".$body->phone." 500 5818";}
-                if($dataplan == 2){$message ="SMEC ".$body->phone." 1000 5818";}
-                if($dataplan == 3){$message ="SMED ".$body->phone." 2000 5818";}
-                if($dataplan == 4){$message ="SMEF ".$body->phone." 3000 5818";}
-                if($dataplan == 5){$message ="SMEE ".$body->phone." 5000 5818";}
-                if($dataplan == 6){$message ="SMEG ".$body->phone." 10000 5818";}
-                $message=urlencode($message);
-                $network = "MOMTNBPVR"; $sim=1; $number="131"; 
-            }
-            
-            $postfields="?apikey=$apiKey&server=$network&sim=$sim&ref=$body->ref&number=$number&message=$message";
-            $host.=$postfields;
-            
-            // ------------------------------------------
-            //  Purchase Airtime
-            // ------------------------------------------
-        
-            $curl = curl_init();
-            curl_setopt_array($curl, array(
-            CURLOPT_URL => $host,
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_ENCODING => '',
-            CURLOPT_MAXREDIRS => 10,
-            CURLOPT_TIMEOUT => 0,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            CURLOPT_CUSTOMREQUEST => 'POST',
-            CURLOPT_POSTFIELDS => array(
-                "apikey" => $apiKey,
-                "server" => $network,
-                "sim" => $sim,
-                "number" => $number,
-                "message" => $message,
-                "ref" => $body->ref
-            ),
-            CURLOPT_HTTPHEADER => array(
-                'Content-Type: application/json',
-            ),
-            ));
+			$payload=array(
+				"service" => "data",
+				"network" => $network,
+				"plan_id" => $dataplan,
+				"phone" => isset($body->phone) ? $body->phone : "",
+				"ported_number" => isset($body->ported_number) ? $body->ported_number : (isset($body->Ported_number) ? $body->Ported_number : "false"),
+				"ref" => isset($body->ref) ? $body->ref : time()
+			);
 
-            $exereq = curl_exec($curl);
+			foreach($providers as $simProvider){
+				$result = $provider->dispatchProviderRequestPayload($simProvider,$payload);
+				if($result["status"] == "success" || $result["status"] == "processing"){
+					$response["status"] = $result["status"];
+					$response["msg"] = $result["message"];
+					return $response;
+				}
+			}
 
-            $err = curl_error($curl);
-            
-            if($err){
-                $response["status"] = "fail";
-                $response["msg"] = "Server Connection Error: ".$err;
-                file_put_contents("data_simhost_error_logo2.txt",json_encode($response));
-                curl_close($curl);
-                return $response;
-            }
-
-            $result=json_decode($exereq);
-            curl_close($curl);
-
-            if($result->data[0]->response == "Ok"){
-                $response["status"] = "processing";
-            }
-            else{
-                $response["status"] = "fail";
-                $response["msg"] = "Server/Network Error";
-                file_put_contents("data_simhost_error_logo.txt",json_encode($result).":".$host.":".$exereq);
-            }
-
-            return $response;
+			$response["status"] = "fail";
+			$response["msg"] = "SIM hosting routing failed for all configured providers.";
+			return $response;
 		}
 
         //Purchase Data From Azaravtu

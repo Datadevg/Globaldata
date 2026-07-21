@@ -187,6 +187,21 @@
             $msg=$controller->disableUserPin();
         }
 
+        //Purchase SIM Hosting
+        if(isset($_POST["purchase-sim-hosting"])){
+            $msg=$controller->purchaseSimHosting();
+        }
+
+        //Purchase NIN Verification
+        if(isset($_POST["purchase-nin-verification"])){
+            $msg=$controller->purchaseNinVerification();
+        }
+
+        //Purchase BVN Verification
+        if(isset($_POST["purchase-bvn-verification"])){
+            $msg=$controller->purchaseBvnVerification();
+        }
+
         //Purchase Alpha Topup
         if(isset($_POST["purchase-alpha-topup"])){
             $msg=$controller->purchaseAlphaTopup();
@@ -214,6 +229,12 @@
          //Submit Airtime To Cash Request
         if(isset($_POST["submit-airtimetocash"])){
             $msg=$controller->submitAirtimeToCashRequest();
+        }
+
+        $blockedUserServicePages = array("sim-hosting","nin-verification","bvn-verification");
+        if(in_array($url, $blockedUserServicePages, true)){
+            header("Location: buy-data");
+            exit();
         }
 
         //Fetch The View Of The Page To Be Displayed
@@ -390,6 +411,30 @@
                 case "alpha-topup":
                     $data=array();
                     $data[0]=$controller->getAlphaTopupPlans();
+                    $controller->recordLastActivity();
+                    return $data;
+                    break;
+
+                case "sim-hosting":
+                    $data=array();
+                    $data[0]=$controller->getProfileInfo();
+                    $data[1]=$controller->getSiteSettings();
+                    $controller->recordLastActivity();
+                    return $data;
+                    break;
+
+                case "nin-verification":
+                    $data=array();
+                    $data[0]=$controller->getProfileInfo();
+                    $data[1]=$controller->getSiteSettings();
+                    $controller->recordLastActivity();
+                    return $data;
+                    break;
+
+                case "bvn-verification":
+                    $data=array();
+                    $data[0]=$controller->getProfileInfo();
+                    $data[1]=$controller->getSiteSettings();
                     $controller->recordLastActivity();
                     return $data;
                     break;
