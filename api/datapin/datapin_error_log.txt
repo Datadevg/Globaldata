@@ -1,0 +1,1 @@
+{"network":"MTN","request-id":"Data_card_653eeffb94e18","amount":300,"quantity":"2","status":"fail","message":"MTN Data Card Printing Fail ","card_name":"Abdulbasir gadget store","oldbal":"2092.98","newbal":1792.98,"system":"API"}

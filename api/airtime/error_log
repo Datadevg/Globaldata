@@ -1,0 +1,152 @@
+[23-Oct-2023 21:02:02 Africa/Lagos] PHP Notice:  Trying to get property 'Status' of non-object in /home/dataeqwh/public_html/core/Controllers/Airtime.php on line 93
+[23-Oct-2023 21:02:02 Africa/Lagos] PHP Notice:  Trying to get property 'status' of non-object in /home/dataeqwh/public_html/core/Controllers/Airtime.php on line 93
+[23-Oct-2023 21:02:02 Africa/Lagos] PHP Notice:  Trying to get property 'Status' of non-object in /home/dataeqwh/public_html/core/Controllers/Airtime.php on line 96
+[23-Oct-2023 21:02:02 Africa/Lagos] PHP Notice:  Trying to get property 'Status' of non-object in /home/dataeqwh/public_html/core/Controllers/Airtime.php on line 96
+[23-Oct-2023 21:02:02 Africa/Lagos] PHP Notice:  Trying to get property 'Status' of non-object in /home/dataeqwh/public_html/core/Controllers/Airtime.php on line 100
+[23-Oct-2023 21:02:02 Africa/Lagos] PHP Notice:  Trying to get property 'status' of non-object in /home/dataeqwh/public_html/core/Controllers/Airtime.php on line 100
+[31-Oct-2023 16:54:52 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[31-Oct-2023 16:54:52 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[31-Oct-2023 16:54:52 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[31-Oct-2023 16:54:52 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[31-Oct-2023 17:07:18 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[31-Oct-2023 17:07:18 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[31-Oct-2023 17:07:18 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[31-Oct-2023 17:07:18 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[02-Nov-2023 08:48:07 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[02-Nov-2023 08:48:07 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[02-Nov-2023 09:48:57 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[02-Nov-2023 09:48:57 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[02-Nov-2023 09:49:47 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[02-Nov-2023 09:49:47 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[02-Nov-2023 09:51:31 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[02-Nov-2023 09:51:31 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[03-Nov-2023 21:24:36 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[03-Nov-2023 21:24:36 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[07-Nov-2023 12:01:15 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[07-Nov-2023 12:01:15 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[07-Nov-2023 12:03:26 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[07-Nov-2023 12:03:26 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[09-Nov-2023 13:35:18 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[09-Nov-2023 13:35:18 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[09-Nov-2023 13:41:07 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[09-Nov-2023 13:41:07 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[09-Nov-2023 13:41:07 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[09-Nov-2023 13:41:07 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 09:25:38 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[16-Nov-2023 09:25:38 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[16-Nov-2023 09:25:38 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 09:25:38 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 09:26:45 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[16-Nov-2023 09:26:45 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 83
+[16-Nov-2023 09:26:45 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 09:26:45 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 13:51:40 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 13:51:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 14:20:39 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 14:20:39 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 14:42:18 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 14:42:18 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 16:25:56 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 16:25:56 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 18:51:17 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 18:51:17 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 18:59:15 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 18:59:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 19:05:26 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 19:05:26 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 21:04:29 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$error in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[16-Nov-2023 21:04:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/dataeqwh/expressdata.ng/core/Controllers/Airtime.php on line 88
+[07-Feb-2024 16:35:18 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[07-Feb-2024 16:35:18 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[07-Feb-2024 16:36:44 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[07-Feb-2024 16:36:44 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 16:52:15 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 16:52:15 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 16:53:36 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 16:53:36 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 16:54:48 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 16:54:48 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 16:58:38 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 16:58:38 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 17:02:11 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 17:02:11 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 17:06:25 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 17:06:25 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 17:10:47 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[09-Feb-2024 17:10:47 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[10-Feb-2024 00:29:45 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[10-Feb-2024 00:29:45 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[10-Feb-2024 01:20:37 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[10-Feb-2024 01:20:37 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[13-Feb-2024 08:12:21 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[13-Feb-2024 08:12:21 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[13-Feb-2024 18:26:25 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[13-Feb-2024 18:26:25 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[13-Feb-2024 18:26:25 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[13-Feb-2024 18:26:25 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 07:42:56 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 07:42:56 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 07:42:56 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 07:42:56 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 07:44:02 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 07:44:02 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 07:44:02 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 07:44:02 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 07:47:29 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 07:47:29 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 07:47:29 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 07:47:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:14:45 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:14:45 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:14:45 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:14:45 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:25:45 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:25:45 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:25:45 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:25:45 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:32:41 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:32:41 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:32:41 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:32:41 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:34:11 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:34:11 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:34:11 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:34:11 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:36:40 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:36:40 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:36:40 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:36:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:39:19 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:39:19 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:39:19 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:39:19 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:43:15 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:43:15 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[14-Feb-2024 08:43:15 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[14-Feb-2024 08:43:15 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[15-Feb-2024 05:55:43 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[15-Feb-2024 05:55:43 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[15-Feb-2024 05:55:43 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[15-Feb-2024 05:55:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[16-Feb-2024 16:10:22 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[16-Feb-2024 16:10:22 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[17-Feb-2024 06:39:43 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[17-Feb-2024 06:39:43 Africa/Lagos] PHP Warning:  Attempt to read property "Status" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[17-Feb-2024 06:39:43 Africa/Lagos] PHP Warning:  Attempt to read property "error" on null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[17-Feb-2024 06:39:43 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 88
+[17-Feb-2024 21:50:33 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[17-Feb-2024 21:50:33 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[17-Feb-2024 21:54:15 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[17-Feb-2024 21:54:15 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[17-Feb-2024 23:41:06 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[17-Feb-2024 23:41:06 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[17-Feb-2024 23:42:26 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[17-Feb-2024 23:42:26 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[21-Feb-2024 20:46:52 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[21-Feb-2024 20:46:52 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[21-Feb-2024 21:14:35 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[21-Feb-2024 21:14:35 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[21-Feb-2024 21:17:40 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[21-Feb-2024 21:17:40 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[21-Feb-2024 21:19:05 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83
+[21-Feb-2024 21:19:05 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$Status in /home/rvtkdubl/public_html/core/Controllers/Airtime.php on line 83

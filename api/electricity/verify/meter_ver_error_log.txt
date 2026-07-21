@@ -1,0 +1,1 @@
+nullhttps://husmodataapi.com/api/validatemeter?mtype=prepaid&disconame=kano-electric&disco=4&meternumber=30530197273

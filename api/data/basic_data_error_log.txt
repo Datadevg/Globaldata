@@ -1,0 +1,1 @@
+{"network":"MTN","request-id":"DATA_66a411bb74a1d","amount":"257","dataplan":"1GB","status":"process","message":"Transaction on process MTN SME 1GB to 08066140838","phone_number":"08066140838","oldbal":"18729.725","newbal":18472.725,"system":"API","wallet_vending":"wallet","plan_type":"SME"}

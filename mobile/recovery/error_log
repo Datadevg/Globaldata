@@ -1,0 +1,11 @@
+[23-Oct-2023 15:58:38 America/New_York] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): failed to open stream: No such file or directory in /home/dataeqwh/public_html/mobile/home/includes/auto_loader.php on line 20
+[23-Oct-2023 15:58:38 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/dataeqwh/public_html/mobile/home/includes/auto_loader.php on line 20
+[09-Mar-2024 10:02:25 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'vtutelec_Data'@'localhost' (using password: YES) in /home/fiatfkrg/aleeyoudata.com/core/Models/Model.php:29
+Stack trace:
+#0 /home/fiatfkrg/aleeyoudata.com/core/Models/Model.php(29): PDO->__construct()
+#1 /home/fiatfkrg/aleeyoudata.com/core/Models/Model.php(23): Model->connectDb()
+#2 /home/fiatfkrg/aleeyoudata.com/core/Controllers/Subscriber.php(56): Model->__construct()
+#3 /home/fiatfkrg/aleeyoudata.com/mobile/home/includes/route.php(67): Subscriber->__construct()
+#4 /home/fiatfkrg/aleeyoudata.com/mobile/recovery/index.php(24): require_once('/home/fiatfkrg/...')
+#5 {main}
+  thrown in /home/fiatfkrg/aleeyoudata.com/core/Models/Model.php on line 29

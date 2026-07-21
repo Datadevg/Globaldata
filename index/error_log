@@ -1,0 +1,6 @@
+[21-Aug-2023 03:04:41 America/New_York] PHP Warning:  require_once(dashboard/includes/auto_loader.php): failed to open stream: No such file or directory in /home/dataeqwh/public_html/index/index.php on line 1
+[21-Aug-2023 03:04:41 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'dashboard/includes/auto_loader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/dataeqwh/public_html/index/index.php on line 1
+[21-Aug-2023 03:04:52 America/New_York] PHP Warning:  require_once(dashboard/includes/auto_loader.php): failed to open stream: No such file or directory in /home/dataeqwh/public_html/index/index.php on line 1
+[21-Aug-2023 03:04:52 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'dashboard/includes/auto_loader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/dataeqwh/public_html/index/index.php on line 1
+[27-Oct-2023 11:10:51 America/New_York] PHP Warning:  require_once(dashboard/includes/auto_loader.php): failed to open stream: No such file or directory in /home/dataeqwh/public_html/index/index.php on line 1
+[27-Oct-2023 11:10:51 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'dashboard/includes/auto_loader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/dataeqwh/public_html/index/index.php on line 1
